@@ -1,0 +1,120 @@
+#profile{
+    border-radius: 0%;
+}
+.topbar{
+    height:150px;
+    width:100%;
+    background-color: rgb(94, 119, 174);
+}
+.menubar{
+    height:1000px;
+    width:30%;
+    background-color:rgb(247, 237, 224);
+}
+.works{
+    height:1000px;
+    width:70%;
+    background-color: rgba(223, 152, 152, 0.445);
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.menubar{
+    display:flex;
+    flex-direction: column;
+    /* flex-wrap:wrap; */
+    overflow: hidden;
+    align-items: center;
+}
+
+.menubar img {
+    height: 300px;
+    width:300px;
+    margin:20px;
+    border-radius: 50%;
+}
+
+.aboutme{
+    height:30px;
+    width: 20%;
+    text-align: center;
+    background-color:rgb(94, 119, 174) ;
+    color:rgb(242, 174, 174);
+    margin-top: 10px;
+    margin-bottom:10px ;
+    font-family:freemono, monospace;
+
+
+}
+.illustration{
+    height:30px;
+    width: 30%;
+    text-align: center;
+    background-color:rgb(94, 119, 174) ;
+    color:rgb(242, 174, 174);
+    margin-top: 10px;
+    margin-bottom:10px ;
+    font-family:freemono, monospace;
+
+
+
+}
+.graphicdesign{
+    height:30px;
+    width: 36%;
+    text-align: center;
+    background-color:rgb(94, 119, 174) ;
+    color:rgb(242, 174, 174);
+    margin-top: 10px;
+    margin-bottom:10px ;
+    font-family:freemono, monospace;
+
+
+
+}
+.photography{
+    height:30px;
+    width: 30%;
+    text-align: center;
+    background-color:rgb(94, 119, 174) ;
+    color:rgb(242, 174, 174);
+    margin-top: 10px;
+    margin-bottom:10px ;
+    font-family:freemono, monospace;
+
+
+
+
+}
+.sketchbooks{
+    height:30px;
+    width: 30%;
+    text-align: center;
+    background-color:rgb(94, 119, 174) ;
+    color:rgb(242, 174, 174);
+    margin-top: 10px;
+    margin-bottom:10px ;
+    font-family:freemono, monospace;
+}
+
+.works{
+    display:grid;
+    width:100%;
+    grid-template-rows: repeat(1fr, 10);
+    grid-template-columns: repeat(1fr, 15);
+    grid-template-areas: 
+    "w1 w1 w1 w1 w2 w2 w2 w2 w2 w2 w4 w4 w4 w4 w4"
+    "w1 w1 w1 w1 w2 w2 w2 w2 w2 w2 w4 w4 w4 w4 w4"
+    "w1 w1 w1 w1 w3 w3 w3 w3 w3 w3 w4 w4 w4 w4 w4"
+    "w1 w1 w1 w1 w3 w3 w3 w3 w3 w3 w4 w4 w4 w4 w4"
+    "w5 w5 w6 w6 w6 w8 w8 w8 w8 w8 w8 w8 w9 w9 w9"
+    "w5 w5 w6 w6 w6 w8 w8 w8 w8 w8 w8 w8 w9 w9 w9"
+    "w5 w5 w6 w6 w6 w8 w8 w8 w8 w8 w8 w8 w10 w10 w10"
+    "w5 w5 w6 w6 w6 w8 w8 w8 w8 w8 w8 w8 w10 w10 w10"
+    "w7 w7 w7 w7 w7 w8 w8 w8 w8 w8 w8 w8 w10 w10 w10"
+    "w7 w7 w7 w7 w7 w8 w8 w8 w8 w8 w8 w8 w10 w10 w10"
+
+}
+    
