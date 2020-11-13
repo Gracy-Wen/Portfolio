@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(255, 245, 238);
+}
+.pics{
+    height: 200px;
+}
+.tg  {
+    border-collapse:collapse; border-spacing:0;
+
+
+}
+h3 {border-style: groove; border-color:HEX #eea29a;
+}
+
+.tg td{
+    border-color: burlywood; border-style:solid; border-width:2px; font-family:Arial, sans-serif; font-size:15px;
+  padding:10px 5px; word-break:normal;
+}
+.tg th {
+    border-color: burlywood; border-style:solid; border-width:1px; font-family:Arial, sans-serif; font-size:15px;
+  font-weight:normal; overflow:hidden; padding:10px 5px; word-break:normal;
+}
+.tg .tg-c3ow{
+    border-color:burlywood; text-align:center; vertical-align:top
+}
+.tg .tg-0pky {
+    border-color: burlywood; text-align:left; vertical-align:top
+}
+
+.gracy{
+    display:flex;
+    flex-direction: row;
+}
