@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
 /* MAIN PAGE */
 .main{
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;  
+    font-family: 'Source Code Pro', monospace;  
 }
 .topbar{
     height:150px;
@@ -371,6 +373,7 @@ grid-area: p10;
     width: 70%;
     background-color: rgba(223, 152, 152, 0.445);
     display:grid;
+    outline: 1px solid red;
     grid-template-rows: repeat(1fr, 10);
     grid-template-columns: repeat(1fr, 15);
     grid-template-areas: 
@@ -380,60 +383,50 @@ grid-area: p10;
         "s1 s1 s1 s1 s3 s3 s3 s3 s3 s3 s4 s4 s4 s4 s4"
         "s5 s5 s6 s6 s6 s8 s8 s8 s8 s8 s8 s8 s9 s9 s9"
         "s5 s5 s6 s6 s6 s8 s8 s8 s8 s8 s8 s8 s9 s9 s9"
-        "s5 s5 s6 s6 s6 g8 s8 s8 s8 s8 s8 s8 s10 s10 s10"
+        "s5 s5 s6 s6 s6 s8 s8 s8 s8 s8 s8 s8 s10 s10 s10"
         "s5 s5 s6 s6 s6 s8 s8 s8 s8 s8 s8 s8 s10 s10 s10"
         "s7 s7 s7 s7 s7 s8 s8 s8 s8 s8 s8 s8 s10 s10 s10"
         "s7 s7 s7 s7 s7 s8 s8 s8 s8 s8 s8 s8 s10 s10 s10"
     }
 
 .s1{
-
     background-color: rgb(70, 0, 128);
     grid-area: s1;
 }
 .s2{
     background-color: rgb(84, 0, 154);
-
     grid-area: s2;
 }
 .s3{
     background-color: rgb(102, 2, 184);
-
     grid-area: s3;
 }
 .s4{
     background-color: rgb(112, 2, 203);
-
     grid-area: s4;
 }
 .s5{
     background-color: rgb(123, 2, 221);
-
     grid-area: s5;
 }
 .s6{
     background-color: rgb(141, 2, 254);
-
     grid-area: s6;
 }
 .s7{
     background-color: rgb(148, 20, 254);
-
     grid-area: s7;
 }
 .s8{
     background-color: rgb(161, 45, 255);
-
     grid-area: s8;
 }
 .s9{
     background-color: rgb(168, 62, 255);
-
     grid-area: s9;
 }
 .s10{
     background-color: rgb(178, 84, 255);
-
     grid-area: s10;
 }
 
@@ -451,16 +444,25 @@ grid-area: p10;
     height:30px;
     width: 20%;
     text-align: center;
-    flex-display
+    display:flex;
 }
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:860px)
 {
     /* MAIN PAGE */
 .main{
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;    
+    flex-direction: column;
 }
 .topbar{
     height:150px;
@@ -469,12 +471,11 @@ grid-area: p10;
 }
 .menubar{
     display:flex;
-    flex-direction: row;
-    /* flex-wrap:wrap; */
+    flex-direction: column;
     overflow: hidden;
-    align-items: center;
-    height:1000px;
-    width:30%;
+    align-items: horizontal;
+    height:470px;
+    width:100%;
     background-color:rgb(247, 237, 224);
 }
 .menubar img {
@@ -484,8 +485,8 @@ grid-area: p10;
     border-radius: 50%;
 }
 .works{
-    height: 1000px;
-    width: 70%;
+    height: 700px;
+    width: 100%;
     background-color: rgba(223, 152, 152, 0.445);
     display:grid;
     grid-template-rows: repeat(1fr, 10);
@@ -574,7 +575,7 @@ ABOUT PAGE
     color:rgb(242, 174, 174);
     margin-top: 10px;
     margin-bottom:10px ;
-    font-family:freemono, monospace;
+    
 
 
 }
@@ -586,7 +587,7 @@ ABOUT PAGE
     color:rgb(242, 174, 174);
     margin-top: 10px;
     margin-bottom:10px ;
-    font-family:freemono, monospace;
+    font-family:font-family: 'Source Code Pro', monospace;;
 
 
 
@@ -599,7 +600,7 @@ ABOUT PAGE
     color:rgb(242, 174, 174);
     margin-top: 10px;
     margin-bottom:10px ;
-    font-family:freemono, monospace;
+    font-family:font-family: 'Source Code Pro', monospace;;
 
 
 
@@ -612,11 +613,7 @@ ABOUT PAGE
     color:rgb(242, 174, 174);
     margin-top: 10px;
     margin-bottom:10px ;
-    font-family:freemono, monospace;
-
-
-
-
+    font-family:font-family: 'Source Code Pro', monospace;;
 }
 .sketchbooks{
     height:30px;
@@ -626,12 +623,12 @@ ABOUT PAGE
     color:rgb(242, 174, 174);
     margin-top: 10px;
     margin-bottom:10px ;
-    font-family:freemono, monospace;
+    font-family:font-family: 'Source Code Pro', monospace;;
 }
 
 .illustrationpage{
-        height: 1000px;
-        width: 70%;
+        height: 700px;
+        width: 100%;
         background-color: rgba(223, 152, 152, 0.445);
         display:grid;
         grid-template-rows: repeat(1fr, 10);
@@ -691,8 +688,8 @@ ABOUT PAGE
 }
 
 .photographypage{
-    height: 1000px;
-    width: 70%;
+    height: 700px;
+    width: 100%;
     background-color: rgba(223, 152, 152, 0.445);
     display:grid;
     grid-template-rows: repeat(1fr, 10);
@@ -752,8 +749,8 @@ grid-area: p10;
 }
     
 .graphicdesignpage{
-    height: 1000px;
-    width: 70%;
+    height: 700px;
+    width: 100%;
     background-color: rgba(223, 152, 152, 0.445);
     display:grid;
     grid-template-rows: repeat(1fr, 10);
@@ -825,8 +822,8 @@ grid-area: p10;
     grid-area: g10;
 }
 .sketchbookpage{
-    height: 1000px;
-    width: 70%;
+    height: 700px;
+    width: 100%;
     background-color: rgba(223, 152, 152, 0.445);
     display:grid;
     grid-template-rows: repeat(1fr, 10);
@@ -909,7 +906,6 @@ grid-area: p10;
     height:30px;
     width: 20%;
     text-align: center;
-    flex-display
+    display:flex; 
 }
-    
 }
